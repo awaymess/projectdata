@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Browallia New', 'Cordia New';
+    background: url(bglog.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.echot {
+    width: 100%;
+    background: rgb(121, 255, 103);
+    border: 3px solid rgb(255, 188, 64);
+    color: black;
+    padding: 5px;
+    font-size: 50px;
+    box-shadow: 1px 1px 20px rgb(255, 188, 64);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 280px;
+    transform: translate(-50%, -50%);
+}
+
+.echolost {
+    border: 3px solid rgb(255, 188, 64);
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    transform: translate(-50%, -50%);
+    background-color: #000000de;
+    box-shadow: 1px 1px 10px rgb(255, 188, 64);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.echolost1 {
+    border: 3px solid rgb(255, 188, 64);
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 700px;
+    transform: translate(-50%, -50%);
+    background-color: #000000de;
+    box-shadow: 1px 1px 10px rgb(255, 188, 64);
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.echof {
+    width: 100%;
+    background: rgb(255, 46, 64);
+    border: 3px solid rgb(255, 188, 64);
+    color: black;
+    padding: 5px;
+    font-size: 50px;
+    box-shadow: 1px 1px 20px rgb(255, 188, 64);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 600px;
+    transform: translate(-50%, -50%);
+}
+
+.echo1 {
+    font-size: 50px;
+    background: rgb(255, 188, 64);
+    border-style: solid;
+    padding-right: 20px;
+    padding-left: 20px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    width: 350px;
+    transform: translate(-50%, -50%);
+}
+
+.echo1:hover {
+    background-color: rgb(73, 158, 255);
+    border-style: solid;
+}
+
+.los {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 188, 64);
+    color: white;
+    position: absolute;
+    font-size: 28px;
+    padding-right: 19px;
+    padding-left: 19px;
+    margin: 12px 0;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    top: 53%;
+    left: 50%;
+    width: 100px;
+}
+
+.los:hover {
+    background-color: rgb(255, 136, 136);
+    border-style: solid;
+    color: black;
+}
+
+
